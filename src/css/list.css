@@ -1,0 +1,27 @@
+
+.list-group-item {
+    padding: 15px; 
+    border-bottom: 1px solid #eaeaea; 
+}
+
+.list-group-item:last-child {
+    border-bottom: none; 
+}
+
+.fw-bold {
+    font-weight: bold; 
+    color: #4CAF50; 
+}
+
+.content {
+    color: #666; 
+    font-size: 0.9em; 
+    margin-top: 5px; 
+
+}
+@media (max-width: 768px) {
+    .box {
+        width: 90%; 
+        margin: 0 auto;
+    }
+}

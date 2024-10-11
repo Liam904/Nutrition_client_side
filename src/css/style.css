@@ -1,0 +1,105 @@
+/* Global Styles */
+#body {
+   font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+#header {
+  text-align: center;
+  padding: 20px;
+
+}
+
+input[type="search"] {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input[type="search"]:focus {
+    outline: none;
+    border-color: #45a049; /* Darker green for focus */
+}
+
+
+#h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+
+#container-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#container-1,
+#container-3 {
+  flex: 1;
+  margin: 10px;
+  background: white;
+    border-radius: 10px;
+    width: 00px;
+}
+
+.box {
+  width: 100%;
+   background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+}
+
+.list-group-item .fw-bold {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    text-align: left;
+}
+
+.table th {
+    background-color: #4CAF50;
+    color: white;
+}
+#container-2 h3 {
+    color: #4CAF50; /* Green color for the section headings */
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+
+.fw-bold {
+  font-weight: bold;
+}
+
+#header{
+  color:green
+}
+
+#container-2{
+  color: green;
+
+}

@@ -1,0 +1,21 @@
+.results-list {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    max-height: 200px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    overflow-y: scroll;
+
+}
+
+.search-result {
+    padding: 10px 20px;
+}
+
+.search-result:hover {
+    background-color: #efefef;
+}
